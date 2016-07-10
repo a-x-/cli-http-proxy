@@ -33,6 +33,10 @@ you want show web page from laptop.
 
 ----
 
+#### A lot of comprehensive schemes for novices
+<details>
+<summary>Click to unfold</summary>
+
 **forwarding scheme**:
 
 ```
@@ -60,3 +64,7 @@ laptop                                                                 server
 ```
 laptop web server <------> ssh <------> server web proxy <------> user web client
 ```
+
+![proxy](https://cloud.githubusercontent.com/assets/6201068/16714602/8b52daee-46d9-11e6-9dea-4ea32db51806.png)
+
+</details>
