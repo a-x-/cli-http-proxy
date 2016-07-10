@@ -3,7 +3,7 @@
 # cli-http-proxy
 Ultra simple CLI HTTP-proxy
 
-## Instalation
+## Installation
 `npm i cli-http-proxy`
 
 ## Using
