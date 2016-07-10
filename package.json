@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alex Mextner <invntrm@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "forever": "^0.15.2",
+    "http-proxy": "^1.14.0"
+  }
 }
