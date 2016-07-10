@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var httpProxy = require('http-proxy');
+httpProxy.createProxyServer({target:'http://localhost:'+process.env.FROM_PORT}).listen(process.env.TO_PORT);
