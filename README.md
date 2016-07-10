@@ -2,10 +2,14 @@
 # cli-http-proxy
 Ultra simple CLI HTTP-proxy
 
-## Using
-`FROM_PORT=8081 TO_PORT=8080 ./run-proxy`
+## Instalation
+`npm i cli-http-proxy`
 
-`open http://server:8080/`
+## Using
+```sh
+FROM_PORT=8081 TO_PORT=8080 ./run-proxy`
+open http://server:8080/
+```
 
 ### Long running setup
 `FROM_PORT=8081 TO_PORT=8080 forever start /path/to/run-proxy`
@@ -27,13 +31,32 @@ you want show web page from laptop.
 * **laptop**: `ssh -N user@server -R 8080:localhost:8081`
 * **server**: `FROM_PORT=8081 TO_PORT=8080 ./run-proxy`
 
-**scheme**:
+----
+
+**forwarding scheme**:
 
 ```
+laptop                           your public server
+  ( ) --------------------------------> ( )
+                ( looks up )         
+  ( ) <-------------------------------- ( )
+                ( responds )
+  ( ) <-------------------------------> ( )
+        ( middlwares stores connection )
+```
+
+**tunnel scheme**:
+
+```
+laptop                                                                 server
                                           |
          <----------> localhost:8080 <--------> server:8081 <--------> server:8080
 (   local server  )                  ( :22 ssh )         ( cli-http-proxy )
 (e.g. node express)                       |
 ```
 
+**networking scheme**:
 
+```
+laptop web server <------> ssh <------> server web proxy <------> user web client
+```
