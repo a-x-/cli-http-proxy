@@ -20,7 +20,9 @@ you want show web page from laptop.
 
 `ngrok` migth be too slow or too public for you.
 
-`ssh` + `cli-http-proxy` is the solution for you.
+`ssh` + `cli-http-proxy` is the solution for you. Just do:
+
+![term](https://cloud.githubusercontent.com/assets/6201068/16714487/c9142d00-46d5-11e6-9015-6d26d9f0a53a.png)
 
 * **laptop**: `ssh -N user@server -R 8080:localhost:8081`
 * **server**: `FROM_PORT=8081 TO_PORT=8080 ./run-proxy`
