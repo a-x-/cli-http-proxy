@@ -1,4 +1,5 @@
 <img width="300" src="https://cloud.githubusercontent.com/assets/6201068/16714438/4b0eaf94-46d4-11e6-8601-1acafc8acb3f.png" align="right"/>
+
 # cli-http-proxy
 Ultra simple CLI HTTP-proxy
 
@@ -34,9 +35,8 @@ you want show web page from laptop.
 ----
 
 #### A lot of comprehensive schemes for novices
-<details>
-<summary>Click to unfold</summary>
 
+<details>
 **forwarding scheme**:
 
 ```
@@ -62,9 +62,8 @@ laptop                                                                 server
 **networking scheme**:
 
 ```
-laptop web server <------> ssh <------> server web proxy <------> user web client
+laptop web server <----> ssh <----> server web proxy <----> user web client
 ```
 
 ![proxy](https://cloud.githubusercontent.com/assets/6201068/16714602/8b52daee-46d9-11e6-9dea-4ea32db51806.png)
-
 </details>
