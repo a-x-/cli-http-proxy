@@ -15,5 +15,9 @@
   },
   "bin": {
     "cli-http-proxy": "run-proxy"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/a-x-/cli-http-proxy.git"
   }
 }
