@@ -1,10 +1,12 @@
 <img width="300" src="https://cloud.githubusercontent.com/assets/6201068/16714438/4b0eaf94-46d4-11e6-8601-1acafc8acb3f.png" align="right"/>
 
+----
+
 # cli-http-proxy
 Ultra simple CLI HTTP-proxy
 
 ## Installation
-`npm i cli-http-proxy`
+`npm i -g cli-http-proxy`
 
 ## Using
 ```sh
