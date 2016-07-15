@@ -12,5 +12,8 @@
   "dependencies": {
     "forever": "^0.15.2",
     "http-proxy": "^1.14.0"
+  },
+  "bin": {
+    "cli-http-proxy": "run-proxy"
   }
 }
