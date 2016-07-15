@@ -1,6 +1,6 @@
 {
   "name": "cli-http-proxy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Ultra simple cli http proxy",
   "main": "run-proxy",
   "scripts": {
@@ -17,7 +17,7 @@
     "cli-http-proxy": "run-proxy"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/a-x-/cli-http-proxy.git"
+    "type": "git",
+    "url": "https://github.com/a-x-/cli-http-proxy.git"
   }
 }
