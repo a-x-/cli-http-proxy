@@ -15,7 +15,7 @@ open http://server:8080/
 ```
 
 ### Long running setup
-`FROM_PORT=8081 TO_PORT=8080 forever start /path/to/run-proxy`
+`FROM_PORT=8081 TO_PORT=8080 forever start $(which cli-http-proxy)`
 
 `forever` already ships with the `cli-http-proxy`.
 
