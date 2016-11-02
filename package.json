@@ -1,6 +1,6 @@
 {
   "name": "cli-http-proxy",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Ultra simple cli http proxy",
   "main": "run-proxy",
   "scripts": {
