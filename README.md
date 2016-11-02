@@ -10,7 +10,7 @@ Ultra simple CLI HTTP-proxy
 
 ## Using
 ```sh
-FROM_PORT=8081 TO_PORT=8080 ./run-proxy`
+FROM_PORT=8081 TO_PORT=8080 cli-http-proxy
 open http://server:8080/
 ```
 
